@@ -1,4 +1,4 @@
 # KalkulatorWeb
 Assignment webpro
-<h1>kalkulato sederhana</h1>
+<h1>kalkulator sederhana</h1>
 sangat sederhanan

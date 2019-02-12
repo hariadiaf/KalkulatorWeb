@@ -45,7 +45,7 @@ table tr td input{
   background-color: #333333;
 }
 
-button:hover{
+.number:hover{
 	cursor: pointer;
 	background-color: #333333;
   }
