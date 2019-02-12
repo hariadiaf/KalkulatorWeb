@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <center>
+      <table border="0">
+        <form>
+        <tr>
+          <td colspan="4">
+            <input type="text" name="layar" id="idLayar" readonly></td>
+        </tr>
+        <tr>
+          <td> <input type="button" name="7" value="7" id="btn7" onclick="getChar(this.form.layar, '7')"></td>
+          <td> <input type="button" name="8" value="8" id="btn8" onclick="getChar(this.form.layar, '8')"></td>
+          <td> <input type="button" name="9" value="9" id="btn9" onclick="getChar(this.form.layar, '9')"></td>
+          <td> <input type="button" name="min" value="-" id="Min" onclick="getChar(this.form.layar, '-')" class="operator"></td>
+        </tr>
+        <tr>
+          <td> <input type="button" name="4" value="4" id="btn4" onclick="getChar(this.form.layar, '4')"></td>
+          <td> <input type="button" name="5" value="5" id="btn5" onclick="getChar(this.form.layar, '5')"></td>
+          <td> <input type="button" name="6" value="6" id="btn6" onclick="getChar(this.form.layar, '6')"></td>
+          <td> <input type="button" name="multiple" value="x" id="Multiple" onclick="getChar(this.form.layar, '*')" class="operator"></td>
+        </tr>
+        <tr>
+          <td> <input type="button" name="1" value="1" id="btn1" onclick="getChar(this.form.layar, '1')"></td>
+          <td> <input type="button" name="3" value="2" id="btn2" onclick="getChar(this.form.layar, '2')"></td>
+          <td> <input type="button" name="3" value="3" id="btn3" onclick="getChar(this.form.layar, '3')"></td>
+          <td> <input type="button" name="div" value="/" id="div" onclick="getChar(this.form.layar, '/')" class="operator"></td>
+        </tr>
+          <tr>
+            <td colspan="2"> <input type="button" name="0" value="0" id="btn0" onclick="getChar(this.form.layar, '0')"></td>
+            <td> <input type="button" name="equivalent" value="=" id="btnequivalent" onclick="calculate(this.form.layar)"></td>
+            <td> <input type="button" name="plus" value="+" onclick="getChar(this.form.layar, '+')" class="operator" ></td>
+          </tr>
+          </form>
+      </table>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+body{
+  background-color: #ffffff;
+}
+
+table{
+    text-align: center;
+    background-color: #329F9C;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+center{
+  margin-top: 100px;
+  /* background-color: #329F9C; */
+}
+
+#idLayar{
+  padding: 32px;
+  width: 200px;
+  border: none;
+
+}
+
+table tr td input{
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 25px;
+  border-radius: 4px;
+  font-family: roboto;
+  font-style: bold;
+  font-size: 20px;
+}
+
+
+#btn0{
+  width: 125px;
+}
+
+#btnequivalent{
+  background-color: #17A928;
+}
+
+.operator{
+  background-color: #333333;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #333333;
+  }
+
+#btnequivalent:hover{
+  cursor: pointer;
+	background-color: #333333;
+}
+
+.operator:hover{
+  cursor: pointer;
+	background-color: #000000;
+}
